@@ -13,7 +13,38 @@
 </head>
 
 <body class="main-font-family">
-  
+  <nav class="navbar shadow p-2 fixed-top navbar-expand-sm navbar-dark bg-dark aria-label="Third navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/Logo1.jpg" alt="" width="200">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExample03">
+        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="homepage.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>>
+          <li class="nav-item"><a class="nav-link" href="#">Conctacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Registrarse</a></li>   
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Productos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="tecnologia.html">Tecnología </a></li>
+              <li><a class="dropdown-item" href="vehiculos.html">Vehículos</a></li>
+              <li><a class="dropdown-item" href="indumentaria.html">Indumentaria</a></li>
+              <li><a class="dropdown-item" href="herramientas.html">Herramientas</a></li>
+            </ul>
+          </li>                     
+        </ul>
+        <form role="search">
+          <input class="form-control" type="search" placeholder="Buscar" aria-label="Search">
+        </form>
+      </div>
+    </div>
+</nav>
   <section class="main-about-us">
 
     <div class="row">  
@@ -50,5 +81,21 @@
   </section>
   
 </body>
+<footer>
+  <div class="card bg-dark">
+    <div class="card-header">
+      <p class="text-light text-center">Institucional
+    </div>
+    <div class="card-body text-center">
+      <blockquote class="blockquote mb-0">
+        <h2 class="text-light">Centro de atencion al cliente</h2>
+        <p class="text-light">Lunes a Viernes: 9 a 20 hs || Sábados: 9 a 17 hs</p>        
+        <a href="contactos.html" alt="enlace a contactos"><p class="text-light">Contactos</a>
+        <br>
+        <code> &copy; Todos los derechos reservados</code>
+      </blockquote>
+    </div>
+  </div>
+</footer>
 </html>
 
