@@ -9,7 +9,11 @@
 
 }
 
-.main-font-family{
-    font-family: var(--main-font-family);
-    background-color: rgb(226, 212, 212);
+.form-contact{
+    font-family: 'Bebas Neue';
+    background-color:rgb(171, 189, 216);
+}
+
+form{
+    padding: 20px;
 }
