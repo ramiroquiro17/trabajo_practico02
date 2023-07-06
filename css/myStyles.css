@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+:root{
+--main-font-family: 'Bebas Neue';
+--font-logo: 'Notable';
+--sect-font: 'Abril Fatface';
+
+}
+
+.form-contact{
+    font-family: 'Bebas Neue';
+    background-color:rgb(171, 189, 216);
+}
+
+form{
+    padding: 20px;
+}
+
+.background{
+    background-color: lightgray;
+}
+
+.card-footer {
+ 
+    /* display: bottom; */
+    position: relative;
+    bottom: 5px;
+  }
