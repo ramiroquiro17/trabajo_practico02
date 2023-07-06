@@ -3,25 +3,25 @@ const product = [
         id: 0,
         img: 'img/bici.jpg',
         title: 'Bicicleta Trek Mtb X-caliber 9 R29 Talle Xl',
-        price: 120,
+        price: 300000,
     },
     {
         id: 1,
-        img: 'img/bici.jpg',
-        title: 'Bicicleta Trek Mtb X-caliber 9 R29 Talle Xl',
-        price: 60,
+        img: 'img/destornillador.jpg',
+        title: 'Destornillador Daewoo 3.6V DAS35XL',
+        price: 20000,
     },
     {
         id: 2,
-        img: 'img/bici.jpg',
-        title: 'Bicicleta Trek Mtb X-caliber 9 R29 Talle Xl',
-        price: 230,
+        img: 'img/volkswagen.jpg',
+        title: 'Volkswagen Amarok 3.0 V6 Cd Highline',
+        price: 20000000,
     },
     {
         id: 3,
-        img: 'img/bici.jpg',
-        title: 'Bicicleta Trek Mtb X-caliber 9 R29 Talle Xl',
-        price: 100,
+        img: 'img/laptop.jpg',
+        title: 'Notebook Hp 15.6 Full Hd Amd Ryzen 5 12gb Ssd 256gb Ram W11',
+        price: 400000,
     }
 ];
 const categories = [...new Set(product.map((item)=>
@@ -50,6 +50,12 @@ function addtocart(a){
     cart.push({...categories[a]});
     displaycart();
 }
+
+function addtocart(a){
+    cart.push({...categories[a]});
+    displaycart();
+}
+
 function delElement(a){
     cart.splice(a, 1);
     displaycart();
