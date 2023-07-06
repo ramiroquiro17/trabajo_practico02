@@ -21,3 +21,10 @@ form{
 .background{
     background-color: lightgray;
 }
+
+.card-footer {
+ 
+    /* display: bottom; */
+    position: relative;
+    bottom: 5px;
+  }
